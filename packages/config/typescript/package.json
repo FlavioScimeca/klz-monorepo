@@ -1,0 +1,12 @@
+{
+  "name": "@klz/ts-config",
+  "version": "0.0.1",
+  "private": true,
+  "main": "base.json",
+  "files": [
+    "base.json"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

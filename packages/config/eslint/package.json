@@ -1,0 +1,41 @@
+{
+  "name": "@klz/eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "dev": "tsup --watch",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^9",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9",
+    "typescript": "~5.3.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.5",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^20.11.24",
+    "rimraf": "^5.0.5",
+    "tsup": "^8.0.2",
+    "typescript": "~5.3.3"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

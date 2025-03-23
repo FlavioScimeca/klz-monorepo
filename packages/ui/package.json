@@ -16,12 +16,12 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
+    "@types/react": "^19",
     "@types/react-native": "^0.72.0",
-    "eslint": "^8.0.0",
-    "react": "^18.2.0",
+    "eslint": "^9",
+    "react": "^19.0.0",
     "tsup": "^8.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "~5.3.3"
   },
   "dependencies": {
     "@tamagui/animations-react-native": "^1.91.0",
@@ -32,6 +32,6 @@
     "tamagui": "^1.91.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^19.0.0"
   }
 }
